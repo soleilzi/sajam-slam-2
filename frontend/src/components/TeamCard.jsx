@@ -25,12 +25,6 @@ const TeamCard = ({ teamName, teamMembers }) => {
                 member.rank === 3 ? 'bg-red-100' :
                   member.rank === 4 ? 'bg-orange-100' : 'bg-green-100';
 
-          const textColourClass =
-            member.rank === 1 ? coachBackground[teamName] :
-              member.rank === 2 ? 'bg-blue-00' :
-                member.rank === 3 ? 'bg-red-100' :
-                  member.rank === 4 ? 'bg-orange-100' : 'bg-green-100';
-
           const fontClass = member.rank === 1 ? 'font-semibold' : 'font-semibold';
           const textSize = member.rank === 1 ? 'text-[22px]' : 'text-lg';
 

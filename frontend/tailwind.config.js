@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ["roboto"],
+      },
       colors: {
         clem: {
           100: '#fb923c',

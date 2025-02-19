@@ -58,7 +58,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="p-6 w-full md:flex-1 h-96 -skew-x-12 bg-orange-200 -mt-[2px] md:mt-0 m-auto md:mx-0 font-semibold">
+        <div className="p-6 w-full md:flex-1 h-auto -skew-x-12 bg-orange-200 -mt-[2px] md:mt-0 m-auto md:mx-0 font-semibold border-2 border-slamBlue-50 font-roboto">
           <p className='my-3'>
             Featuring 24 streamers of all Tekken skill levels and 6
             high level Tekken coaches, the Sajam Tekken Slam returns!

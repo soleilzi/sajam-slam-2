@@ -5,7 +5,7 @@ const SpButton = ({ label }) => {
   return (
     <StyledWrapper>
       <button className="cta">
-        <span className="span">{ label }</span>
+        <span className="span font-roboto">{ label }</span>
         <span className="second">
           <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <g id="arrow" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
