@@ -62,13 +62,13 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/" onClick={() => setOpen(false)}>
+              <Link to="/teams" onClick={() => setOpen(false)}>
                 <li className="block w-full px-4 py-2 hover:bg-gray-200">
                   Teams
                 </li>
               </Link>
 
-              <Link to="/" onClick={() => setOpen(false)}>
+              <Link to="/about" onClick={() => setOpen(false)}>
                 <li className="block w-full px-4 py-2 hover:bg-gray-200">
                   About
                 </li>
